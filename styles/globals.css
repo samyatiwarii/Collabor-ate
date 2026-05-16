@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #0f0e17;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Sora', system-ui, sans-serif;
+  }
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: #f8f8fc; }
+  ::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 2px; }
+  ::selection { background: #e0e7ff; color: #4338ca; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .font-heading { font-family: 'Sora', system-ui, sans-serif; }
+}
