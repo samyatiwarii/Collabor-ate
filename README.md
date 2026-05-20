@@ -179,11 +179,4 @@ collabor-ate/
 Pull requests are welcome. For major changes please open an issue first.
 
 ---
-
-## License
-
-MIT — feel free to use this for your own projects.
-
----
-
 Built with ❤️ for India's creator economy.
